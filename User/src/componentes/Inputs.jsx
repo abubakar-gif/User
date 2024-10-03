@@ -130,6 +130,7 @@ export default function Input({ handleclick_main_image }) {
             <button className={styles.submitbutton}>submit</button>
           </div>
         </div>
+        
       </form>
     </div>
   );
