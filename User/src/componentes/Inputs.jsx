@@ -30,7 +30,7 @@ export default function Input({ handleclick_main_image }) {
     formdata.append("image", file.main_image);
 
     axios
-      .post("https://bestdeals-api-90f1c78ac0d8.herokuapp.com/api/image", formdata, {
+      .post("http://localhost:8000/api/image", formdata, {
         headers: { "Content-Type": "multipart/form-data" },
       })
       .then((res) => {
